@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+.mr-table {
+  overflow-y: unset !important;
+  overflow-x: unset !important;
+  max-height: none !important;
+  margin: 10px !important;
+}
+
+.MuiTableContainer-root {
+  max-height: none !important;
+}
+
+@media print {
+  .table-container {
+    page-break-inside: avoid;
+  }
+
+  .mr-table {
+    display: block !important;
+    visibility: visible !important;
+  }
+
+  .mr-table table {
+    width: 100%;
+    border: 2px solid black;
+    table-layout: auto;
+  }
+
+  .mr-table td,
+  .mr-table th {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+}
