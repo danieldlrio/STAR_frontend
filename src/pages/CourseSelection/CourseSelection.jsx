@@ -18,7 +18,7 @@ import {
   getTermLabel,
   toSentenceCase,
 } from "../../utils";
-import "./courseSelectionStyle.css";
+//import "./courseSelectionStyle.css"; //this go commented to make the website run
 
 import CustomTable from "./CustomTable";
 import SideTable from "./SideTable";
